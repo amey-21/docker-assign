@@ -5,5 +5,26 @@
         "weight": "65",
         "height": "180",
         "activity": "Very Active"
+    },
+    {
+        "age": "25",
+        "gender": "male",
+        "weight": "65",
+        "height": "180",
+        "activity": "Moderately Active"
+    },
+    {
+        "age": "25",
+        "gender": "male",
+        "weight": "68",
+        "height": "185",
+        "activity": "Sedentary"
+    },
+    {
+        "age": "53",
+        "gender": "male",
+        "weight": "78",
+        "height": "153",
+        "activity": "Sedentary"
     }
 ]
