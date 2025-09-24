@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Handle form submission and forward to Flask backend
 app.post('/submit', async (req, res) => {
     try {
-        const response = await axios.post('http://backend:5000/calculate', req.body);
+        const response = await axios.post('http://backend:5000/submit', req.body);
         res.send(`<h2>${response.data.message}</h2>`);
     } catch (error) {
         console.error(error);
